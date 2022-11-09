@@ -6,7 +6,7 @@
 """
 Tree ensemble builder class to construct CoreML models.
 """
-import collections as _collections
+import collections.abc as _collections
 
 from .. import SPECIFICATION_VERSION as _SPECIFICATION_VERSION
 from ..proto import Model_pb2 as _Model_pb2
